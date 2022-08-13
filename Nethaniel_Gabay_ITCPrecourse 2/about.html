@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>About</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <link href="bootstrap.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand navbar-toggler" href="index.html"
+          >Nethaniel Gabay</a
+        >
+        <button
+          class="
+            navbar-toggler
+            text-uppercase
+            font-weight-bold
+            bg-primary
+            text-white
+            rounded
+          "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="masthead bg-primary text-white text-left">
+      <div class="container d-flex align-items-left flex-column">
+        <h1 class="text-uppercase">About me:</h1>
+        <div class="mx-auto mt-5">
+          <p class="font-w font-s">
+            My passion for coding was born when i was a kid. playing video games
+            with my friends, i started scripting missions on video game engines,
+            and making fun scenarios for me and my friends to play around with.
+            now i want to leverage this handy skill and improve it to advance my
+            career as a software developer. after i finished high school i
+            started a Full Stack WEB course that taught me the basics of the
+            web. and did a few related jobs after. i worked for Etoro as a
+            junior frontend software developer on a non-profit project. a
+            digital wallet based on blockchain data structure. and universal
+            basic income. i was also a coding teacher for Algorithmika coding
+            school. I also do small freelance projects for businesses and
+            artists. therefore i am interested in becoming a greater developer
+            and eventually launch my career as a software developer
+          </p>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="container d-flex align-items-left flex-column">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-uppercase">Locations:</h1>
+            <br />
+            <div class="">
+              <a
+                id="cityOne"
+                class="cities active-city"
+                target="someFrame"
+                onclick="setIframeSource('https://maps.google.com/maps?q=hadasa%20hospital&t=&z=13&ie=UTF8&iwloc=&output=embed')"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                Born in Hadassah Ein Kerem, Jerusalem </a
+              ><br />
+              <a
+                id="cityTwo"
+                class="cities"
+                onclick="setIframeSource('https://maps.google.com/maps?q=Central%20Tel-Aviv&t=&z=13&ie=UTF8&iwloc=&output=embed')"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                Moved to Central Tel-Aviv </a
+              ><br />
+              <a
+                id="cityThree"
+                class="cities"
+                target="someFrame"
+                onclick="setIframeSource('https://maps.google.com/maps?q=Haifa&t=&z=13&ie=UTF8&iwloc=&output=embed')"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                Short stay in Downtown Haifa </a
+              ><br />
+              <a
+                id="cityFour"
+                class="cities"
+                target="someFrame"
+                onclick="setIframeSource('https://maps.google.com/maps?q=Bet%20Shemesh&t=&z=13&ie=UTF8&iwloc=&output=embed')"
+              >
+                <i class="fas fa-map-marker-alt"></i>
+                Current location, Bet Shemesh </a
+              ><br /><br /><br />
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <div class="image-gallery">
+                <iframe
+                  class="gallery-img active"
+                  name="someFrame"
+                  id="someFrame"
+                  src="https://maps.google.com/maps?q=hadasa%20hospital&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+              </div>
+              <div class="btns">
+                <button
+                  id="prev"
+                  onclick="toggleIframe('prev')"
+                  disabled
+                  class="btn btn prev"
+                  type="button"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+                <button
+                  id="next"
+                  onclick="toggleIframe('next')"
+                  class="btn btn next"
+                  type="button"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-secondary text-center">
+      <nav
+        class="navbar navbar-expand-lg bg-secondary text-uppercase"
+        id="mainNav"
+      >
+        <div class="container">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a
+                  class="nav-link py-3 px-0 px-lg-3 rounded"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <p
+              id="footerItem"
+              class="btn btn-outline-light footer-item text-uppercase"
+            ></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+    <script src="footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

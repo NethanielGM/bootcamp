@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+html {
+  zoom: 90%;
+}
+li {
+  display: block;
+  display: inline-block;
+}
+.card {
+  border-color: white !important;
+  margin: 0 auto;
+  float: none;
+  cursor: pointer;
+  transition: border-color 1s, background-color 1s;
+}
+.card:hover {
+  border-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(
+    var(--bs-secondary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+  border-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.cities {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cities:hover {
+  color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
+}
+.active-city {
+  color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
+}
+.footer-item {
+  margin: 0px 50px;
+}
+.gallery-img {
+  display: none;
+  width: 600px;
+  height: 500px;
+}
+.title {
+  font-size: 30px;
+}
+.Stitle {
+  font-size: 20px;
+}
+.Ctitle {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.active {
+  display: block;
+}
+.image-gallery {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev {
+  margin-right: auto;
+}
+
+.spacer {
+  height: 20vh;
+}
+.mtb {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.font-s {
+  font-size: 20px;
+}
+.font-w {
+  font-weight: bold;
+}
+@media screen and (max-width: 991px) {
+  .nav-link {
+    font-size: 1.5vh;
+    margin-left: 15px;
+  }
+}

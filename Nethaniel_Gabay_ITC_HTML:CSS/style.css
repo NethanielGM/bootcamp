@@ -1,0 +1,91 @@
+body {
+  background-color: #f5f6f8 !important;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.active {
+  color: #109cf1 !important;
+}
+svg {
+  fill: #fff;
+  stroke: #c2cfe0;
+}
+svg:hover {
+  fill: #fff;
+  stroke: #109cf1;
+  transition: all 0.5s ease;
+}
+.svg1:hover {
+  fill: #109cf1;
+  stroke: #109cf1;
+  transition: all 0.5s ease;
+}
+.circle {
+  background-color: #fff !important;
+}
+
+.circle:hover {
+  background-color: #109cf1 !important;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.cal {
+  cursor: pointer;
+}
+
+.cal:hover {
+  color: #109cf1 !important;
+  transition: all 0.5s ease;
+}
+.bold {
+  font-weight: 800 !important;
+}
+.bold1 {
+  font-weight: 600 !important;
+}
+.w50 {
+  width: 50%;
+}
+
+.mt3 {
+  margin-top: 4vh;
+  margin-bottom: 6vh;
+}
+
+a:link {
+  text-decoration: none;
+  cursor: default;
+}
+
+.clickable {
+  cursor: pointer !important;
+}
+
+p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: small !important;
+}
+.sidetoggle {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: #f5f6f8 !important;
+  }
+  .mobile {
+    flex-direction: column !important;
+  }
+  .w50 {
+    width: 100%;
+  }
+}

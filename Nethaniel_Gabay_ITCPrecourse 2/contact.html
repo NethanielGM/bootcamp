@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+    <link href="bootstrap.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand navbar-toggler" href="index.html"
+          >Nethaniel Gabay</a
+        >
+        <button
+          class="
+            navbar-toggler
+            text-uppercase
+            font-weight-bold
+            bg-primary
+            text-white
+            rounded
+          "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="masthead bg-primary text-white text-center">
+      <div class="container">
+        <h1 class="Ctitle text-uppercase">Contact for more info:</h1>
+        <div class="wrapper">
+          <form onchange="checkForm()" onsubmit="consoleForm(event)">
+            <div class="mb-3 mt-3">
+              <label class="form-label"></label>
+              <input
+                id="firstName"
+                type="text"
+                class="form-control my-form"
+                placeholder="First Name..."
+                name="firstname"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-label"></label>
+              <input
+                id="lastName"
+                type="text"
+                class="form-control my-form nothis"
+                placeholder="Last Name..."
+                name="lastname"
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-label"></label>
+              <input
+                id="email"
+                type="email"
+                class="form-control my-form"
+                placeholder="Email..."
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-label"></label>
+              <input
+                id="comment"
+                type="text"
+                class="form-control my-form"
+                placeholder="Comment..."
+                name="comment"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label class="form-label"></label>
+              <input
+                id="phone"
+                type="number"
+                class="form-control my-form"
+                placeholder="Phone..."
+                name="phone"
+                required
+              />
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" id="checkBox" name="not-bot" required />
+              <label class="form-check-label">
+                Confirm you are not a bot
+              </label>
+            </div>
+
+            <button
+              id="submitBtn"
+              type="submit"
+              value="submit"
+              class="btn btn-secondary"
+              disabled
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="spacer"></div>
+    </div>
+    <footer class="footer bg-secondary text-center">
+      <nav
+        class="navbar navbar-expand-lg bg-secondary text-uppercase"
+        id="mainNav"
+      >
+        <div class="container">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a
+                  class="nav-link py-3 px-0 px-lg-3 rounded"
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col">
+            <p
+              id="footerItem"
+              class="btn btn-outline-light footer-item text-uppercase"
+            ></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="form.js"></script>
+    <script src="footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
