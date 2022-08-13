@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "jest --testPathPattern=tests/1.test.js",
+    "test2": "jest --testPathPattern=tests/2.test.js",
+    "test3": "jest --testPathPattern=tests/3.test.js",
+    "test4": "jest --testPathPattern=tests/4.test.js",
+    "test5": "jest --testPathPattern=tests/5.test.js",
+    "test": "jest "
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  }
+}

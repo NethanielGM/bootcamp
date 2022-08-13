@@ -1,0 +1,20 @@
+{
+  "name": "js-01-fibonacci-nethanielgm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israeltechchallenge/js-01-fibonacci-NethanielGM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israeltechchallenge/js-01-fibonacci-NethanielGM/issues"
+  },
+  "homepage": "https://github.com/israeltechchallenge/js-01-fibonacci-NethanielGM#readme"
+}

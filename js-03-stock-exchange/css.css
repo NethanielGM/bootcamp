@@ -1,0 +1,35 @@
+.nevative {
+  color: red;
+}
+.positive {
+  color: green;
+}
+#marquee span {
+  position: relative;
+  width: 10vw;
+  max-width: 50%;
+  overflow-x: hidden;
+}
+#marquee {
+  background-color: rgb(236, 236, 236);
+  position: fixed;
+  top: 0px;
+  white-space: nowrap;
+  z-index: 1030;
+  will-change: transform;
+  animation: marquee 50s linear infinite;
+}
+a span {
+  background-color: rgba(242, 255, 0, 0.871);
+}
+p span {
+  background-color: rgba(242, 255, 0, 0.871);
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=/Exercises",
+    "test-arrayOfMultiples": "jest --testPathPattern=Exercises/arrayOfMultiples.test.js",
+    "test-canPartition": "jest --testPathPattern=Exercises/canPartition.test.js",
+    "test-radiansToDegrees": "jest --testPathPattern=Exercises/radiansToDegrees.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "js-beautify": "^1.13.0"
+  }
+}

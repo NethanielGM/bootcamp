@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPattern=/Exercises",
+    "test-champions": "jest --testPathPattern=Exercises/champions.test.js",
+    "test-competitionRank": "jest --testPathPattern=Exercises/competitionRank.test.js",
+    "test-oddishOrEvenish": "jest --testPathPattern=Exercises/oddishOrEvenish.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "js-beautify": "^1.13.0"
+  }
+}

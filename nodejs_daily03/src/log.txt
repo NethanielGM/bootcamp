@@ -1,0 +1,1 @@
+{"url":"/","method":"POST","duration":5.724167}{"url":"/","method":"POST","duration":0.74325}{"url":"/","method":"GET","duration":3.321416}{"url":"/","method":"GET","duration":9.360375}{"url":"/","method":"POST","duration":2.638959}{"url":"/","method":"GET","duration":9.007167}{"url":"/","method":"GET","duration":8.941209}{"url":"/","method":"POST","duration":1.892417}
