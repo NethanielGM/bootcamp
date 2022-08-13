@@ -1,0 +1,18 @@
+# SERVER CONNECTION
+PORT = 5001
+# SQL SERVER
+SQL_DIALECT = 'mysql'
+SERVER_HOST = 'localhost'
+SERVER_USER = 'root'
+SERVER_PASSWORD = 'Mac!9898'
+# DATABASE
+DB_NAME = 'react_game_db'
+# TABLES
+USERS_TABLE = 'users'
+PETS_TABLE = 'scores'
+# CORS
+CORS_DOMAINS = http://localhost:3000, http://localhost:3001
+# TOKENS 
+ACCESS_TOKEN_SECRET = NethanielTom_Access
+REFRESH_TOKEN_SECRET = NethanielTom_Refresh
+TOKEN_COOKIE = 'refreshToken'
