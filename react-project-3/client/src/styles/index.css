@@ -1,0 +1,25 @@
+/*styles.css*/
+* {
+  box-sizing: border-box;
+  /* font-family: monospace; */
+  /* font-family: 'Sora', sans-serif !important; */
+  font-size: 2rem;
+  font-family: 'Epilogue', sans-serif !important;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #141622;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

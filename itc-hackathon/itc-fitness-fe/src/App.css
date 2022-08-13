@@ -1,0 +1,71 @@
+.title{
+  text-align: center;
+  font-size: 80px;
+  /* margin-bottom: -1px; */
+  margin-top: -2vh;
+}
+
+.home{
+  margin: 50px;
+}
+
+/* .modal{
+display: flex;
+flex-direction: column;
+width: 300px;
+background-color: white;
+
+} */
+
+/* .modal form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+} */
+
+/* .closeBtn{
+  width: 20px;
+  justify-content: center;
+} */
+
+.divForm{
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.divForm form{
+  display: flex;
+}
+
+.scheduleDiv{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: lightblue;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form input{
+  border: 1px solid gray;
+  width: 200px;
+  background-color: transparent;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form button{
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
